@@ -1,0 +1,21 @@
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/variables";
+
+
+/*seccion 3 de inicio*/
+
+.seccion3{
+    @extend %mensaje;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    .iconosSeccion3{
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+}
+

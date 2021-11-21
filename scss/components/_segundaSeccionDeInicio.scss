@@ -1,0 +1,43 @@
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/variables";
+
+/*seccion 2 de inicio*/
+
+.seccion2 {
+       text-align: center;
+    .divSeccion2{
+        border: black solid;
+        display: block;
+        border-radius: 10px;
+        margin: 20px 300px 10px 300px;
+        h1{
+            h3{
+                @extend %mensaje;
+                text-align: center;
+            }
+        }
+    }   
+}
+
+
+.seccionImagesContainer2{
+    display: flex;
+    justify-content: center;
+    .images-container{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 30px;
+        .fotoNuestro{
+            transition-duration: 2s;
+            transition-property: all;
+            &:hover{
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+

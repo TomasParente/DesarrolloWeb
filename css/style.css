@@ -1,0 +1,294 @@
+/*extends*/
+.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h2 h3, .seccion1 .divSeccion1 h3 h2, header nav ul li a {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*elemento universal*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*estilo Body*/
+body {
+  font-family: "Work Sans", sans-serif;
+  font-display: swap;
+  background-image: url("../scr/multimedia/fotos/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*inicio de header*/
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  background-color: #f76410;
+  padding: 3px;
+  color: black;
+}
+header nav ul li a:active {
+  background-color: tomato;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 50px;
+}
+
+.menu-container {
+  background-color: #f57f54;
+  padding: 50px 0;
+  color: black;
+  border-radius: 10px;
+  border: black solid 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 900px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*extends*/
+.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h2 h3, .seccion1 .divSeccion1 h3 h2, header nav ul li a {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*seccion 1 de inicio*/
+.seccion1 {
+  text-align: center;
+}
+.seccion1 .divSeccion1 {
+  border: black solid;
+  display: block;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 5px;
+}
+.seccion1 .divSeccion1 h3 h2 {
+  text-align: center;
+}
+
+/*extends*/
+.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h2 h3, header nav ul li a, .seccion1 .divSeccion1 h3 h2 {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*seccion 2 de inicio*/
+.seccion2 {
+  text-align: center;
+}
+.seccion2 .divSeccion2 {
+  border: black solid;
+  display: block;
+  border-radius: 10px;
+  margin: 20px 300px 10px 300px;
+}
+.seccion2 .divSeccion2 h2 h3 {
+  text-align: center;
+}
+
+.seccionImagesContainer2 {
+  display: flex;
+  justify-content: center;
+}
+.seccionImagesContainer2 .images-container {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.seccionImagesContainer2 .images-container .fotoNuestro {
+  transition-duration: 2s;
+  transition-property: all;
+}
+.seccionImagesContainer2 .images-container .fotoNuestro:hover {
+  transform: scale(1.3);
+}
+
+/*extends*/
+.seccion1C, .seccion1A, .seccion3, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h2 h3 {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*seccion 3 de inicio*/
+.seccion3 {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+.seccion3 .iconosSeccion3 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*extends*/
+.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h2 h3, .seccion3 {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*inicio footer*/
+footer {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: oblique;
+  margin: 50px 40px 0px 40px;
+}
+footer .containRedesTexto {
+  display: flex;
+}
+footer .containRedesTexto .redesTexto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  list-style: none;
+}
+footer .containRedesTexto .redesTexto .redesIconos {
+  transition-duration: 2s;
+  transition-property: all;
+}
+footer .containRedesTexto .redesTexto .redesIconos:hover {
+  transform: scale(1.2);
+}
+
+footer .whatsapp {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+}
+
+footer .ubicacion {
+  text-align: center;
+}
+
+/*extends*/
+.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h2 h3, .seccion3 {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*contacto*/
+.seccion1B {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/*extends*/
+.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h2 h3, .seccion3 {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*productos*/
+.carouselB {
+  width: 900px;
+  height: auto;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+/*extends*/
+.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h2 h3, .seccion3 {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*quienes somos*/
+.seccion1A {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+/*extends*/
+.seccion1C, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h2 h3, .seccion3, .seccion1A {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*testimonios*/
+.seccion1C {
+  text-align: center;
+  text-decoration: none;
+}
+.seccion1C .divSeccion1C {
+  border: black solid 2px;
+  display: block;
+  border-radius: 10px;
+  margin: 20px 250px 20px 250px;
+}
+
+.seccion1C .grid-container {
+  display: grid;
+  border: 4px solid black;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 0px 5px 0px 5px;
+}
+
+.grid-item {
+  border: 2px solid black;
+}
+
+/*extends*/
+header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h2 h3, .seccion3, .seccion1A, .seccion1C {
+  color: black;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/variables";
+
+/*inicio footer*/
+
+footer{
+    color: black;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-style: oblique;
+    margin: 50px 40px 0px 40px;
+    .containRedesTexto{
+        display: flex;
+        .redesTexto{
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+            list-style: none;
+            .redesIconos{
+                transition-duration: 2s;
+                transition-property: all;
+                &:hover{
+                    transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+
+
+footer{
+    .whatsapp{
+        position: fixed;
+        bottom: 0%;
+        right: 0%;
+    }
+}
+
+footer{
+    .ubicacion{
+        text-align: center;
+        }
+    }

@@ -1,0 +1,12 @@
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/variables";
+
+/*quienes somos*/
+
+.seccion1A{
+    @extend %mensaje;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+}
