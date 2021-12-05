@@ -1,5 +1,5 @@
 /*extends*/
-.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2{
+.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -20,16 +20,19 @@ html {
 body {
   font-family: "Work Sans", sans-serif;
   font-display: swap;
-  background-image: url("../../scr/multimedia/fotos/lamparasFondo.jpg");
+  background-image: url("../../scr/multimedia/fotos/fondo-lampara.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
 /*inicio de header*/
+header {
+  background-color: #f76410;
+}
 
 /*extends*/
-.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2{
+.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -96,7 +99,7 @@ body {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, .seccion3, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3 {
+.seccion1C, .seccion1A, .seccion3, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -117,7 +120,7 @@ body {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
+.seccion1C, .seccion1A, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -163,7 +166,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
+.seccion1C, .seccion1A, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -183,7 +186,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
+.seccion1C, .seccion1A, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -199,7 +202,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
+.seccion1C, .seccion1A, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -214,7 +217,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-.seccion1C, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3, .seccion1A {
+.seccion1C, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3, .seccion1A {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -247,7 +250,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3, .seccion1A, .seccion1C {
+.seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3, .seccion1A, .seccion1C {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;

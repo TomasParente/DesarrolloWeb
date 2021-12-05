@@ -11,13 +11,14 @@
 
 html{
     scroll-behavior: smooth;
+    
 }
 
 /*estilo Body*/
 body{
     font-family:'Work Sans', sans-serif;
     font-display: swap;
-    background-image: url('../../scr/multimedia/fotos/lamparasFondo.jpg');
+    background-image: url('../../scr/multimedia/fotos/fondo-lampara.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -25,3 +26,7 @@ body{
 
 
 /*inicio de header*/
+
+header{
+    background-color: rgb(247, 100, 16);
+}
