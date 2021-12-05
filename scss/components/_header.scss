@@ -25,13 +25,3 @@ body{
 
 
 /*inicio de header*/
-
-header{
-    &:hover{
-        background-color: rgb(247, 100, 16);
-        padding: 3px;
-        color: $colorGeneral;
-    }
-    &:active{
-        background-color: tomato;}
-}

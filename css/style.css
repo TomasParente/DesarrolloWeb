@@ -27,15 +27,6 @@ body {
 }
 
 /*inicio de header*/
-header:hover {
-  background-color: #f76410;
-  padding: 3px;
-  color: black;
-}
-header:active {
-  background-color: tomato;
-}
-
 /*extends*/
 .seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2 {
   color: black;
