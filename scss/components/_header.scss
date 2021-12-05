@@ -26,30 +26,12 @@ body{
 
 /*inicio de header*/
 
-header{ 
-    nav{
-        ul{
-            li{
-                list-style: none;
-                a{
-                    @extend %mensaje;
-                    text-decoration: none;
-
-                    &:hover{
-                        background-color: rgb(247, 100, 16);
-                        padding: 3px;
-                        color: $colorGeneral;
-                    }
-                    &:active{
-                        background-color: tomato;
-                        
-                    }
-                }
-            } 
-        } 
+header{
+    &:hover{
+        background-color: rgb(247, 100, 16);
+        padding: 3px;
+        color: $colorGeneral;
     }
+    &:active{
+        background-color: tomato;}
 }
-
-
-
-

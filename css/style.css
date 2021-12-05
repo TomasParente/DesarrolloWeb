@@ -1,5 +1,5 @@
 /*extends*/
-.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2, header nav ul li a {
+.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -27,23 +27,17 @@ body {
 }
 
 /*inicio de header*/
-header nav ul li {
-  list-style: none;
-}
-header nav ul li a {
-  text-decoration: none;
-}
-header nav ul li a:hover {
+header:hover {
   background-color: #f76410;
   padding: 3px;
   color: black;
 }
-header nav ul li a:active {
+header:active {
   background-color: tomato;
 }
 
 /*extends*/
-.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2, header nav ul li a {
+.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -68,7 +62,7 @@ header nav ul li a:active {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, header nav ul li a, .seccion1 .divSeccion1 h3 h2 {
+.seccion1C, .seccion1A, .seccion3, .seccion2 .divSeccion2 h1 h3, .seccion1 .divSeccion1 h3 h2 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -110,7 +104,7 @@ header nav ul li a:active {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, .seccion3, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3 {
+.seccion1C, .seccion1A, .seccion3, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -131,7 +125,7 @@ header nav ul li a:active {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
+.seccion1C, .seccion1A, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -177,7 +171,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
+.seccion1C, .seccion1A, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -197,7 +191,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
+.seccion1C, .seccion1A, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -213,7 +207,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-.seccion1C, .seccion1A, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
+.seccion1C, .seccion1A, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3 {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -228,7 +222,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-.seccion1C, header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3, .seccion1A {
+.seccion1C, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3, .seccion1A {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
@@ -261,7 +255,7 @@ footer .ubicacion {
 }
 
 /*extends*/
-header nav ul li a, .seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3, .seccion1A, .seccion1C {
+.seccion1 .divSeccion1 h3 h2, .seccion2 .divSeccion2 h1 h3, .seccion3, .seccion1A, .seccion1C {
   color: black;
   font-size: 1em;
   letter-spacing: 1px;
